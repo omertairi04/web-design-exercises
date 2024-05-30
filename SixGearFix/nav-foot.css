@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+    padding: 20px;
+    margin: -10px -10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+li {
+    margin-left: 25px;
+}
+
+li a {
+    color: whitesmoke;
+}
+
+footer {
+    background-color: darkgreen;
+    display: flex;
+    margin-left: -50px;
+    flex-direction: column;
+    color: white;
+}
+
+footer p {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+footer ul li a {
+    color: darkseagreen;
+}

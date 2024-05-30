@@ -1,0 +1,28 @@
+footer ul li a[href="about.html"] {
+    color: ghostwhite;
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content p {
+    width: 80%;
+}
+
+.left-side {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.content img {
+    margin-right: 10%;
+    margin-left: -10%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
