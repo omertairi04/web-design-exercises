@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(164, 123, 123, 0.43);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.introduction {
+    grid-column: 2;
+}
+
+.card {
+    grid-column: 2;
+    padding: 30px;
+    background-color: lightyellow;
+    border-radius: 10px;
+}

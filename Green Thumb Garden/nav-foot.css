@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(164, 123, 123, 0.43);
+}
+
+.navbar {
+    background-color: rgba(38,119,32,0.43);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: -10px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.navbar a, .navbar h1 {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 17px;
+    text-align: center;
+    color: white;
+    background-color: rgba(38,119,32,0.43);
+    padding: 18.4px;
+    margin-bottom: -10px;
+    margin-left: -8.9px;
+    margin-right: -8.9px;
+}

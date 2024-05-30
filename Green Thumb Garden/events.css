@@ -1,0 +1,46 @@
+.content {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.welcome {
+    margin-top: 30px;
+    grid-column: 2;
+    background-color: #E6E6FA;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card {
+    margin-top: 30px;
+    grid-column: 2;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+.card1 , .card2 , .card3 {
+    text-align: left;
+    background-color: lightyellow;
+    width: 80%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin: 20px 100px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: none;
+}
+
+img {
+    margin-left: 20px;
+    border-radius: 10px;
+}

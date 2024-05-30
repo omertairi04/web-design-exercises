@@ -1,0 +1,84 @@
+body {
+    background-color: #E6E6FA;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.menu {
+    grid-column: 2;
+    margin-top: 10px;
+}
+
+.menu .header {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.menu .header h1 {
+    text-align: center;
+}
+
+.box-borders {
+    margin-top: 20px;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 60% 40%;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    grid-column: 2;
+    border: 1px dashed red;
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+    gap: 10px;
+}
+
+.first-card {
+    grid-column: 2;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    padding: 3px;
+    background-color: white;
+    grid-row: 1;
+}
+
+.first-card ul {
+    text-align: left;
+}
+
+.second-card {
+    grid-column: 3;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    padding: 3px;
+    background-color: white;
+    grid-row: 1;
+}
+
+.second-card ul {
+    text-align: left;
+}
+
+.bottom-card {
+    text-align: center;
+    grid-column: 2 / 4;
+    grid-row: 2;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    padding: 3px;
+    background-color: white;
+}
+
+.bottom-card ul {
+    text-align: left;
+}
+
+
+
+
+
